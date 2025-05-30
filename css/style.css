@@ -515,7 +515,7 @@ transform: translate(-50%, -50%);
       gap: 15px;
       position: relative;
       height: 70%;
-      overflow: hidden;
+
     }
 
     .s2lftic, .s2rhtic {
@@ -530,7 +530,7 @@ transform: translate(-50%, -50%);
       width: 30%;
       height: 100%;
       position: relative;
-      overflow: hidden;
+    
       
     }
 
@@ -560,6 +560,57 @@ transform: translate(-50%, -50%);
       opacity: 1;
       z-index: 1;
 
+    }
+    .s2c1::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+       height: 350px;
+        background-image: url("../imgs/diagnostic-kit-fr.webp");
+        background-position:center ;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .s2c2::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+       height: 350px;
+        background-image: url("../imgs/a_deck_of_anatomy_cards.jpeg");
+        background-position:center ;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .s2c3::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+       height: 350px;
+        background-image: url("../imgs/Blood-Pressure1.jpg");
+        background-position:center ;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .s2c4::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+       height: 350px;
+        background-image: url("../imgs/premium_unisex_lab_coat.jpeg");
+        background-position:center ;
+        background-size: cover;
+        z-index: -1;
     }
 
     .sec2-ics i {
@@ -608,12 +659,12 @@ transform: translate(-50%, -50%);
   height: 350px;
   backface-visibility: hidden;
 }
-
+.sec2-flip .front{visibility: hidden;}
 .sec2-flip .back {
   transform: rotateY(180deg);
 }
 .card:hover .sec2-flip {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg) skewY(180deg);
 }
 .sec2-flip img {
   width: 100%;
@@ -633,7 +684,7 @@ transform: translate(-50%, -50%);
 }
 .sec3-hr1 , .sec3-hr2{
     width: 100%;
-    height: 3px;
+    height: 2px;
     background-color: grey;
     position: absolute;
    
@@ -846,14 +897,14 @@ text-align:center;
 /*/////////////////////////////////////////////////////////<--sec-5-->/////////////////////////////////////////////////////////*/
 .sec5{
     width:98.9vw;
-    height:150vh;
+    height:120vh;
     background-color: rgba(127, 255, 212, 0.182);
     position: relative;
     margin-top:90px;
 }
 .sec5-hr1 , .sec5-hr2{
     width: 100%;
-    height: 3px;
+    height: 2px;
     background-color: grey;
     position: absolute;
 }
@@ -874,7 +925,7 @@ text-align:center;
     width:100%;
     height: 70%;
     position: relative;
-    gap:35px;
+    gap:45px;
 }
 .sec5-new1{
     width: 25%;
@@ -887,13 +938,13 @@ position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
     object-fit: cover;
     transition: all 0.3s;
 }
 .sec5-new1-txt{
     position:absolute;
-    bottom: -230px;
+    bottom: -270px;
      display:flex;
       flex-direction: column;
       justify-content: flex-start;
