@@ -623,13 +623,13 @@ transform: translate(-50%, -50%);
 
 /*/////////////////////////////////////////////////////////<--sec-3-->/////////////////////////////////////////////////////////*/
 .sec3 {
-    height: 50vh;
+    height: 60vh;
     width: 98.9vw;
-    display: flex;
+    position: relative;
+    background-color:rgba(135, 207, 235, 0.441);
+     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    background-color:rgba(135, 207, 235, 0.491);
 }
 .sec3-hr1 , .sec3-hr2{
     width: 100%;
@@ -640,4 +640,140 @@ transform: translate(-50%, -50%);
 }
 .sec3-hr1 {top: 0%;}
 .sec3-hr2 {bottom: 0%;}
+.sec3-content{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap:30px;
+}
+.sec3-h1{ 
+    position:absolute;
+    top:-8%; 
+font-size:2rem;
+   
+}
+.sec3-ig{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+}
+.sec3-txt{
+    width:100%;
+   gap:190px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px;
+text-align:center;
+}
+.s3lftic, .s3rhtic {
+      color: gray;
+      font-size: 3rem;
+      cursor: pointer;
+      z-index: 2;
+      padding-top: 50px;
+    }
+.sec3-preson{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    gap:20px;
+    padding-bottom: 50px;
+}
+.sec3-p{
+    color:#6f6f6f;
+    font-size:1.3rem;
+}
+.sec3-nm{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size:1.2rem;
+}
+.sec3-desc{color:grey;}
+/*/////////////////////////////////////////////////////////<--/sec-3-->/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////<--sec-4-->/////////////////////////////////////////////////////////*/
+.sec4{
+    width: 98.9vw;
+    height: 100vh;
+}
+.sec4-h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-top: 60px;
+    margin-bottom: 45px;
+}
+.sec4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.sec4-item1{
+    width: 21%;
+    }
+
+.sec4-card{
+    height: 430px;
+    position: relative;
+}
+.s4c1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+     background-image: url("../imgs/Suture-Practice-Pad-with-Tools.jpg");
+    background-position: center;           
+    background-size: cover;              
+    transition:  0.5s;
+    z-index: 1;
+}
+.s4c1:hover::after{
+     height: 90%;
+    }
+.sec4-card img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+
+}
+.s4lftic, .s4rhtic {
+    color: gray;
+    font-size: 3rem;
+    cursor: pointer;  
+}
+.sec4-ics{
+    color:blue;
+    font-size: 1.7rem;
+    background-color: white;
+    position: absolute;
+  top: 325px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 8;
+          opacity:0;
+             transition :opacity 0.5s
+    }
+    .sec4-ics i{
+        padding:7px; 
+        z-index: 3;
+        position: relative;
+     
+    } 
+     .sec4-ics i:hover {
+        background-color: blue;
+        color: white;
+        transition: all 0.5s;
+        cursor:pointer;
+    }
+    .sec4-card:hover .sec4-ics {
+        opacity: 1;
+    }
 
