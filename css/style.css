@@ -841,3 +841,82 @@ text-align:center;
 .sec4-card:hover .sec4-item-name{
     color: blue;
 }
+/*/////////////////////////////////////////////////////////<--/sec-4-->/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////<--sec-5-->/////////////////////////////////////////////////////////*/
+.sec5{
+    width:98.9vw;
+    height:150vh;
+    background-color: rgba(127, 255, 212, 0.182);
+    position: relative;
+    margin-top:90px;
+}
+.sec5-hr1 , .sec5-hr2{
+    width: 100%;
+    height: 3px;
+    background-color: grey;
+    position: absolute;
+}
+.sec5-hr1 {top: 0%;}
+.sec5-hr2 {bottom: 0%;}
+
+.sec5-h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding-top: 50px;
+    margin-bottom:30px;
+}
+.sec5-container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    width:100%;
+    height: 70%;
+    position: relative;
+    gap:35px;
+}
+.sec5-new1{
+    width: 25%;
+    height: 65%;
+      position: relative;
+     
+}
+.sec5-new1-img{
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+.sec5-new1-txt{
+    position:absolute;
+    bottom: -230px;
+     display:flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap:20px;
+}
+.sec5-tip{
+    color:grey;
+    font-size: .9rem;
+}
+.sec5-new1-p1{font-size:1.15rem;}
+.sec5-new1-p2{
+     color:grey;
+    font-size: .95rem;
+}
+.sec5-read{
+    color:black;
+    font-size:1.1rem;
+     transition: all 0.3s;
+}
+.sec5-new1-img:hover {transform: scale(1.05);}
+.sec5-new1:hover .sec5-new1-p1{color:blue; cursor:pointer;}
+.sec5-read:hover{transform: scale(1.2);}
+/*/////////////////////////////////////////////////////////<--/sec-5-->/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////<--sec-6-->/////////////////////////////////////////////////////////*/
