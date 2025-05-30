@@ -738,6 +738,56 @@ text-align:center;
 .s4c1:hover::after{
      height: 90%;
     }
+.s4c2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:0%;
+     background-image: url("../imgs/digital_thermometer_\(2\).jpeg");
+    background-position: center;           
+    background-size: cover;              
+    transition:  0.5s;
+    z-index: 1;
+}
+.s4c2:hover::after{
+     height: 90%;
+    }
+    .s4c3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:0%;
+     background-image: url("../imgs/Compression_Socks_Front.webp");
+    background-position: center;           
+    background-size: cover;              
+    transition:  0.5s;
+    z-index: 1;
+}
+.s4c3:hover::after{
+     height: 90%;
+    }
+    
+    .s4c4::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:0%;
+     background-image: url("../imgs/UV\ Disinfection\ Wand\(1\).jpeg");
+    background-position: center;           
+    background-size: cover;              
+    transition:  0.5s;
+    z-index: 1;
+}
+.s4c4:hover::after{
+     height: 90%;
+    }
+    
 .sec4-card img{
     width: 100%;
     height: 90%;
@@ -761,6 +811,9 @@ text-align:center;
           opacity:0;
              transition :opacity 0.5s
     }
+    .sec4-card:hover .sec4-ics {
+        opacity: 1;
+    }
     .sec4-ics i{
         padding:7px; 
         z-index: 3;
@@ -773,7 +826,18 @@ text-align:center;
         transition: all 0.5s;
         cursor:pointer;
     }
-    .sec4-card:hover .sec4-ics {
-        opacity: 1;
-    }
-
+.sec4-suggested-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.sec4-item-name{
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding-top:5px;
+}
+.sec4-card:hover .sec4-item-name{
+    color: blue;
+}
