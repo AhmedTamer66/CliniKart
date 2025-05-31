@@ -893,7 +893,7 @@ text-align:center;
 /*/////////////////////////////////////////////////////////<--sec-5-->/////////////////////////////////////////////////////////*/
 .sec5{
     width:98.9vw;
-    height:120vh;
+    height:130vh;
     background-color: rgba(127, 255, 212, 0.182);
     position: relative;
     margin-top:90px;
@@ -967,3 +967,48 @@ position: absolute;
 /*/////////////////////////////////////////////////////////<--/sec-5-->/////////////////////////////////////////////////////////*/
 
 /*/////////////////////////////////////////////////////////<--sec-6-->/////////////////////////////////////////////////////////*/
+.sec6{
+    width: 98.9vw;
+    height: 40vh;
+    position: relative;
+}
+.sec6-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 100px;
+}
+.sec6-ic1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.sec6-txt{
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}  
+.sec6-desc{font-size:0.9rem; color: rgb(67, 67, 67);} 
+.sec6-ic1 i{
+    color: grey;
+    font-size: 3rem;
+    transition: all 0.5s;
+}
+.s6ic2{
+    position:absolute;
+    color:rgb(0, 0, 91);
+    top:100px;
+    opacity:0;
+    transition: 0.3s;
+}
+.sec6-ic1:hover .s6ic2{
+    color:rgb(0, 0, 91);
+   top:69px;
+   opacity:1;
+}
