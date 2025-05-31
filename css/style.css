@@ -660,7 +660,7 @@ transform: translate(-50%, -50%);
   transform: rotateY(180deg);
 }
 .card:hover .sec2-flip {
-    transform: rotateY(-180deg) skewY(180deg);
+    transform: rotateY(-180deg);
 }
 .sec2-flip img {
   width: 100%;
@@ -1009,7 +1009,7 @@ position: absolute;
 }
 .sec6-ic1:hover .s6ic2{
     color:rgb(0, 0, 91);
-   top:70px;
+   top:77px;
    opacity:1;
 }
 /*/////////////////////////////////////////////////////////<--/sec6-->/////////////////////////////////////////////////////////*/
@@ -1075,7 +1075,7 @@ font-size:0.8rem;
     align-items: center;
 font-size:1.5rem;
 gap:15px;
-color:rgba(0, 0, 255, 0.49);
+color:rgba(212, 212, 254, 0.49);
 }
 .up-r-ics i{transition :all 0.3s;}
 .up-r-ics i:hover{
